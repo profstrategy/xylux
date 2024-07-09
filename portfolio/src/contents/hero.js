@@ -1,22 +1,23 @@
-
-export const heroContent = [
+const heroContent_1 = [
     {
         id: 'cont1',
-        content1: 'HI THERE '
-    },
+        content1: 'Hi, my name is '
+    }
+]
 
+const heroContent_2 = [
     {
         id: 'cont2',
-        content2: 'Hi, 👋 I am Ismail Abdulrahman',
+        content2: 'Ismail Abdulrahman.',
     },
+]
 
+const heroContent_3 = [
     {
         id: 'cont3',
-        content3: 'Fontend Developer'
+        content3: 'Fontend Developer.'
     },
 
-    // {
-    //     id: 'cont4',
-    //     content4: ''
-    // },
 ]
+
+export { heroContent_1, heroContent_2, heroContent_3 }

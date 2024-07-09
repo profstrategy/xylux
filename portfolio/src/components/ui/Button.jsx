@@ -5,7 +5,8 @@ const Button = ({ styles, children }) => {
     const className = classNames(
         'rounded-[4px]',
         'border-[1px]',
-        styles  
+        styles,
+        
     );
     return (
         <div>

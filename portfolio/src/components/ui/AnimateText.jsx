@@ -1,13 +1,10 @@
-import { heroContent } from '@/contents/hero'
 import React from 'react'
 import Typewriter from 'typewriter-effect'
 
 const AnimateText = () => {
-    return (
-        <div>
-            <Typewriter
+    return <Typewriter
                 options={{
-                    strings: ['A top-notch developer, writer, and mentor who loves to solve problems and sharing experiences.'],
+                    strings: ['A top-notch developer, writer, and mentor who loves to solve problems and sharing experiences. Specialist in building exceptional digital experiences.'],
                     autoStart: true,
                     loop: true,
                     delay: 50,
@@ -15,8 +12,6 @@ const AnimateText = () => {
                     
                 }}
             />
-        </div>
-    )
 }
 
 export default AnimateText
