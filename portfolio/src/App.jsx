@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import './App.css';
 import Home from './Pages/Home';
+import About from './Pages/About'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
   return (
    <div>
     <Home isOpen={isOpen} isHandleIsOpen={handleIsOpen} />
+    <About />
    </div>
   );
 }

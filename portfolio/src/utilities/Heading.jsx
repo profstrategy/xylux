@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Heading = ({ children, type, classname }) => {
+const Heading = ({ children, type, classname, id }) => {
   const big_head = 'text-big-head-clamp'; 
   const num_head = 'text-num-head-clamp';
   const title = 'text-title-clamp';
@@ -17,7 +17,7 @@ const Heading = ({ children, type, classname }) => {
 
   return (
     <div>
-      <h2 className={`${styles[type]} ${classname} `}>{children}</h2>
+      <h2 className={`${styles[type]} ${classname} `} key={id}>{children}</h2>
     </div>
   );
 };

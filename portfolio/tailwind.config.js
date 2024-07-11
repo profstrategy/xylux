@@ -40,19 +40,21 @@ module.exports = {
       },
 
       fontSize: {
-        "big-head-clamp": 'clamp(24px, 8vw, 66px)',
-        "num-head-clamp": 'clamp(1.625rem,5vw,3.75rem)',
-        "title-clamp": 'clamp(2.5rem,5vw,2.75rem)',
-        "proj-title-clamp": 'clamp(1.5rem,5vw,1.75rem)',
-        "intro-clamp": "text-[clamp(fz-sm, 5vw, fz-md)]",
-        "nav-sm-clamp": "clamp(fz-sm, 4vw, fz-lg)",
         "fz-xxs": '12px',
         "fz-xs": '13px',
         "fz-sm": '14px',
         "fz-md": '16px',
         "fz-lg": '18px',
         "fz-xl": '20px',
-        "fz-xxl": '22px'
+        "fz-xxl": '22px',
+        "fz-heading": '32px',
+
+        "big-head-clamp": 'clamp(24px, 8vw, 66px)',
+        "num-head-clamp": 'clamp(16px,3vw,32px)',
+        "title-clamp": 'clamp(2.5rem,5vw,2.75rem)',
+        "proj-title-clamp": 'clamp(1.5rem,5vw,1.75rem)',
+        "intro-clamp": "text-[clamp(fz-sm, 5vw, fz-md)]",
+        "nav-sm-clamp": "clamp(fz-sm, 4vw, fz-lg)",
       },
 
       fontFamily: {
@@ -62,7 +64,8 @@ module.exports = {
 
       textColor: {
         "green": "#64ffda",
-        "lightest-slate": "#ccd6f6"
+        "lightest-slate": "#ccd6f6",
+        "lightest-navy": '#233554'
       },
 
       borderColor: {
