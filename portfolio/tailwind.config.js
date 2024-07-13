@@ -52,7 +52,7 @@ module.exports = {
         "big-head-clamp": 'clamp(24px, 8vw, 66px)',
         "num-head-clamp": 'clamp(16px,3vw,32px)',
         "title-clamp": 'clamp(2.5rem,5vw,2.75rem)',
-        "proj-title-clamp": 'clamp(1.5rem,5vw,1.75rem)',
+        "proj-title-clamp": 'clamp(1rem,5vw,1.2rem)',
         "intro-clamp": "text-[clamp(fz-sm, 5vw, fz-md)]",
         "nav-sm-clamp": "clamp(fz-sm, 4vw, fz-lg)",
       },
@@ -88,7 +88,8 @@ module.exports = {
 
     backgroundColor: {
       'green-bg': '#64ffda',
-      "light-navy": "#112240"
+      "light-navy": "#112240",
+      "slate": "#8892b0"
     }
     
     },

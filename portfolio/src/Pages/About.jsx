@@ -3,12 +3,17 @@ import React from 'react';
 import PageTitle from '@/components/PageTitle'
 import { Layout } from '@/utilities/padding';
 import { modifiedAbout_2, modifiedAbout_3, modifiedAbout_4 } from '@/contents/modifiedAbout';
+import { pageHeading } from '@/contents/sectionHeading'
 
 const About = () => {
+    const aboutIndex = pageHeading.findIndex((heading) => heading === 'About');
+    const aboutElement = pageHeading[aboutIndex];
+
     return (
-        <div className="wrapper">
-            <section className={` ${Layout.paddingY} px-6 max-w-[980px] mx-auto my-8 section`}>
-                <PageTitle className="mb-[40px] numbered-heading" type="numbered_heading">About</PageTitle>
+        <div>
+            
+            <section className={` px-6 max-w-[950px] mx-auto my-8`}>
+               <PageTitle className="mb-[40px] numbered-heading" type="numbered_heading">{<><em className='text-green-color mr-[10px]'>0{`${aboutIndex+1}`}</em> <em>{aboutElement}</em></>}</PageTitle>
                 <div className="grid grid-cols-[3fr,2fr] gap-[50px]">
                     <div>
                         {modifiedAbout_2.map((cont2) => (

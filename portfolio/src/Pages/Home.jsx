@@ -1,18 +1,18 @@
 
 import { heroContent_1, heroContent_2, heroContent_3 } from "@/contents/hero"
-import AnimateText from "@/components/ui/AnimateText"
+import AnimateText from "@/components/UI/AnimateText"
 import Heading from "@/utilities/Heading"
 import { Paragraph } from '@/utilities/paragraph'
 import { Layout } from "@/utilities/padding"
 import Navbar from "./Navbar"
 import Socials from "./Socials"
 import Email from "./Email"
-import Button from "@/components/ui/Button"
+import Button from "@/components/UI/Button"
 import NavbarMobile from "./NavbarMobile"
 
 const Home = ({ isOpen, isHandleIsOpen }) => {
   return (
-    <div className="wrapper">
+    <div>
       <div className={`max-h-100vh relative ${isOpen ? '' : ''}`}>
 
         <Navbar isOpen={isOpen} isHandleIsOpen={isHandleIsOpen} />

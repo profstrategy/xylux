@@ -16,7 +16,7 @@ const styleWords = (content, positions, style) => {
 const modifiedAbout_2 = [
     {
         id: 'cont2',
-        content2: styleWords(about_2[0].content2, [20, 21, 24, 25, 26, 32, 33, 47], { color: '#64ffda' })
+        content2: styleWords(about_2[0].content2, [ 21, 22, 24, 25, 26, 32, 33, 47], { color: '#64ffda' })
     }
 ];
 

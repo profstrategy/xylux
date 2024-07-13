@@ -6,7 +6,7 @@ import { LiaTimesSolid } from "react-icons/lia";
 
 import { logo } from "@/assets";
 import { navLinks } from "@/contents/navbar";
-import Button from "@/components/ui/Button";
+import Button from "@/components/UI/Button";
 import { Layout } from "@/utilities/padding";
 
 

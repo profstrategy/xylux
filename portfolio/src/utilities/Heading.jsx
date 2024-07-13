@@ -12,7 +12,7 @@ const Heading = ({ children, type, classname, id }) => {
     numbered_heading: `${num_head} font-mono text-[#ccd6f6] font-bold leading-tight`,
     intro_title: `${intro} font-sans text-[#64ffda] leading-tight xl:mb-6 md:mb-6 lg:mb-6 iconScreen:mb-4`,
     title: `${title} font-semibold font-sans leading-tight text-[#ccd6f6]`,
-    project_title: `${project_title} font-medium text-2xl leading-7 tracking-tighter`,
+    project_title: `${project_title} font-sans font-medium leading-7 tracking-tighter`,
   };
 
   return (
