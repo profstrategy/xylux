@@ -13,13 +13,13 @@ const Skills = () => {
 
     return (
         <div>
-        <section className={` px-6 max-w-[950px] mx-auto`}>
-            <PageTitle className="mb-[40px] numbered-heading" type="numbered_heading">
+        <section className={` px-6 max-w-[1000px] mx-auto`}>
+            <Heading classname="mb-[40px] numbered-heading" type="numbered_heading">
                 <>
-                    <em className='text-green-color mr-[10px]'>0{`${aboutIndex + 1}`}</em>
-                    <em>{aboutElement}</em>
+                    <em className='text-green-color mr-[10px]'>0{`${aboutIndex + 1}.`}</em>
+                    {aboutElement}
                 </>
-            </PageTitle>
+            </Heading>
             <div className="grid xl:grid-cols-[3fr_3fr] lg:grid-cols-[3fr_3fr] ">
                 <div className="">
                     {stack.map((stack) => (

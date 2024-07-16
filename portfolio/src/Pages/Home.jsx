@@ -21,7 +21,7 @@ const Home = ({ isOpen, isHandleIsOpen }) => {
         <Email />
 
 
-        <div className={`${Layout.padddingX} ${Layout.padddingY} max-w-[1000px]xl:ml-[80px] lg:ml-[80px] md:ml-[50px] tab:ml-[50px]  m-auto flex justify-center flex-col items-start`}>
+        <div className={`${Layout.padddingX} ${Layout.padddingY} max-w-[1000px] xl:ml-[80px] lg:ml-[80px] md:ml-[50px] tab:ml-[50px]  m-auto flex justify-center flex-col items-start`}>
           {heroContent_1.map((cont1) => (<Heading key={cont1.id} type='intro_title'>{cont1.content1}</Heading>))}
 
 

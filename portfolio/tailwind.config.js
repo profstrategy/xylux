@@ -83,7 +83,8 @@ module.exports = {
 
      boxShadow: {
       'custom': '3px 3px 0px 0px #64ffda',
-      'nav-shadow': "-10px 0px 30px -15px rgba(2,12,27,0.7)"
+      'nav-shadow': "-10px 0px 30px -15px rgba(2,12,27,0.7)",
+      'project-shadow': "0 10px 30px -15px rgba(2,12,27,0.7)"
     },
 
     backgroundColor: {
