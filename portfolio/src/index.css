@@ -85,3 +85,44 @@
     margin-left: 20px;
     background-color: #233554;
 }
+
+.custom-hover-focus:hover,
+.custom-hover-focus:focus {
+  background: transparent;
+  outline: 0;
+}
+
+.custom-hover-focus:hover::before,
+.custom-hover-focus:focus::before,
+.custom-hover-focus:hover .img,
+.custom-hover-focus:focus .img {
+  background: transparent;
+  filter: none;
+}
+
+li .project-image {
+    grid-column: 1 / 10;
+    grid-area: 1 / 1 / -1 / 7;
+    position: relative;
+    z-index: 1;
+}
+
+li .project-content{
+    grid-column: 7 / -1;
+    text-align: right;
+    position: relative;
+    grid-area: 1 / 6 / -1 / -1;
+}
+
+
+.project-image a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0px;
+    z-index: 3;
+    background-color: #0a192f;
+    mix-blend-mode: screen;
+    transition:  all 0.25s cubic-bezier(0.645,0.045,0.355,1);;
+}

@@ -6,6 +6,7 @@ import Heading from '@/utilities/Heading';
 import { stack, stack_1 } from '@/contents/skill';
 import PageTitle from '@/components/PageTitle';
 import { pageHeading } from '@/contents/sectionHeading';
+import ProjectOverline from '@/components/Card/ProjectOverline';
 
 const Skills = () => {
     const aboutIndex = pageHeading.findIndex((heading) => heading === 'Skills');
@@ -28,7 +29,7 @@ const Skills = () => {
                                 <div className='text-green-color'>{stack.icon}</div>
                             </div>
                             <div className='w-full grid gap-[1px]'>
-                                <Heading type={'project_title'}><em>{stack.text}</em></Heading>
+                                <ProjectOverline classname={'text-lightest-slate'}><em>{stack.text}</em></ProjectOverline>
                                 <div>{stack.progress}</div>
                             </div>
                         </div>
@@ -43,7 +44,7 @@ const Skills = () => {
                                     <div className='text-green-color'>{stack.icon_1}</div>
                                 </div>
                                 <div className='w-full grid gap-[1px]'>
-                                    <Heading type={'project_title'}><em>{stack.text_1}</em></Heading>
+                                <ProjectOverline classname={'text-lightest-slate'}><em>{stack.text_1}</em></ProjectOverline>
                                     <div>{stack.progress}</div>
                                 </div>
                             </div>

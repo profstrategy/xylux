@@ -4,7 +4,7 @@ const Heading = ({ children, type, classname, id }) => {
   const big_head = 'text-big-head-clamp'; 
   const num_head = 'text-num-head-clamp';
   const title = 'text-title-clamp';
-  const project_title = 'text-proj-title-clamp';
+  const project_title = 'text-project-title-clamp';
   const intro = 'text-intro-clamp';
 
   const styles = {

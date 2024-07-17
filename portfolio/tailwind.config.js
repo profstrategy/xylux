@@ -34,8 +34,8 @@ module.exports = {
 
       screens: {
         "iconScreen": { "max":"768px"},
-        "xsm" : { "max":"699px"},
-        "tab": { "max": "888px" },
+        "xsm" : { "max":"480px"},
+        "tab": { "max": "1080px" },
         // "md": {'max': '960px',}
       },
 
@@ -52,7 +52,7 @@ module.exports = {
         "big-head-clamp": 'clamp(24px, 8vw, 66px)',
         "num-head-clamp": 'clamp(16px,3vw,32px)',
         "title-clamp": 'clamp(2.5rem,5vw,2.75rem)',
-        "proj-title-clamp": 'clamp(1rem,5vw,1.2rem)',
+        "project-title-clamp": 'clamp(1.5rem,5vw,1.75rem)',
         "intro-clamp": "text-[clamp(fz-sm, 5vw, fz-md)]",
         "nav-sm-clamp": "clamp(fz-sm, 4vw, fz-lg)",
       },
@@ -69,7 +69,8 @@ module.exports = {
       },
 
       borderColor: {
-        "green-border": "#64ffda"
+        "green-border": "#64ffda",
+        "navy": "0a192f"
       },
 
       colors: {

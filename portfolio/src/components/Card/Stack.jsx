@@ -3,7 +3,9 @@ import React from 'react'
 const Stack = ({ children }) => {
   return (
     <div>
-      <li className='mb-[5px] mr-[20px] font-mono text-fz-xs text-light-slate whitespace-nowrap'>{children}</li>
+      <ul className='flex flex-wrap gap-[4px] relative z-10 mt-[25px] mr-0 mb-[10px] p-0 list-none justify-center iconScreen:justify-start'>
+        {children}
+      </ul>
     </div>
   )
 }
